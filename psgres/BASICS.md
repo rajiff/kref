@@ -66,7 +66,7 @@ CREATE TABLE users (
 
 - `\d table_name` or `\d schema_name.table_name`: Lists all columns, their data types, modifiers (like NOT NULL), indexes, foreign key constraints, and triggers
 
-- `\d+ table_name`: Displays everything in \d, plus column descriptions, policies, and background storage characteristics
+- `\d+ table_name`: Displays everything in `\d table_name`, plus column descriptions, policies, and background storage characteristics
 
 - You can also use SQL queries
 
