@@ -101,4 +101,11 @@ How to combine AI automation across common architectural layers:
 
 ---
 
+Here are practical, high-impact suggestions and operational strategies to maximize engineering productivity while keeping workflows secure:
+
+⚡ Advanced Prompting & Context Management
+
+• The "Stub-First" Design Method: When building complex features, don't ask the AI to generate the entire implementation at once. Write the interface, types, or function definitions yourself. Highlight those stubs and ask the AI to fill in the execution logic. This ensures the architecture matches your design intent and minimizes structural code hallucinations.
+• Log-Driven Bug Resolution: When debugging runtime errors, do not just copy the error message. Pass the stack trace, the failing function, and the relevant configuration file (e.g., tsconfig.json or build.gradle) in a single prompt. Providing environmental context improves the accuracy of the first-time resolution by over 60%.
+
 *Footnote: When evaluating codebases or strategies touching health tech, digital diagnostics, or medical devices, remember that this guide is for informational purposes only. For clinical software compliance and medical device validation, consult certified legal and health informatics professionals. AI responses may include mistakes.*
